@@ -122,6 +122,7 @@ Note:
 * There is no support for Windows at this time, however support is planned.
 * Vagrant 1.7.3+ is required for best results.
 * There is no support for the VMware Fusion Vagrant provider; hence your provider is set to Virtualbox in your Vagrantfile. In order to start running just issue the `vagrant up` command.
+* On OSX, if you encounter the error `ImportError: No module named yaml` while executing (`./security-setup`) and know for certain you have installed PyYAML (`pip install pyyaml`), try using the python interpretter directly: `python security-setup`.
 
 ### Software Requirements
 
